@@ -1,0 +1,91 @@
+@import "../JMA.scss";
+
+$firstColor: #004085;
+$secondColor: #e17111;
+
+.error {
+  border-left: 5px solid #f00;
+}
+
+nav.bg-light {
+  a.navbar-brand {
+    color: $firstColor;
+    font-size: 30px;
+    font-weight: 900;
+    position: relative;
+    span {
+      color: $secondColor;
+      font-size: 13px;
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+    }
+    &:hover {
+      color: $firstColor;
+    }
+  }
+  .dropdown-menu {
+    .dropdown-item {
+      margin-bottom: 3px;
+      font-weight: 600;
+      &:hover {
+        background-color: $firstColor !important;
+        color: $secondColor;
+      }
+    }
+  }
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  .box {
+    width: 500px;
+    border: 3px solid $firstColor;
+    @include borderRadius(10px);
+    overflow: hidden;
+    @include transition(1s);
+    .header {
+      background-color: $firstColor;
+      padding: 10px;
+      color: #fff;
+      h4 {
+        color: $secondColor;
+        text-align: center;
+      }
+    }
+    .form {
+      padding: 20px;
+      button.btn {
+        color: $firstColor;
+        border: 1px solid $firstColor;
+        font-weight: 500;
+        @include transition(0.5s);
+        &:hover {
+          color: #fff;
+          background-color: $firstColor;
+        }
+      }
+    }
+  }
+}
+
+.password {
+  position: relative;
+  display: block;
+  i {
+    font-size: 20px;
+    position: absolute;
+    top: calc((100% - 20px) / 2);
+    right: 10px;
+    cursor: pointer;
+    color: #004085;
+    &.fa-eye-slash {
+      display: none;
+    }
+  }
+}
+
+@import "../Home/responsive";

@@ -1,0 +1,274 @@
+.error {
+  border-left: 5px solid #f00;
+}
+
+nav.bg-light a.navbar-brand {
+  color: #004085;
+  font-size: 30px;
+  font-weight: 900;
+  position: relative;
+}
+
+nav.bg-light a.navbar-brand span {
+  color: #e17111;
+  font-size: 13px;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+}
+
+nav.bg-light a.navbar-brand:hover {
+  color: #004085;
+}
+
+nav.bg-light .dropdown-menu .dropdown-item {
+  margin-bottom: 3px;
+  font-weight: 600;
+}
+
+nav.bg-light .dropdown-menu .dropdown-item:hover {
+  background-color: #004085 !important;
+  color: #e17111;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.register .box {
+  width: 500px;
+  border: 3px solid #004085;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.register .box .header {
+  background-color: #004085;
+  padding: 10px;
+  color: #fff;
+}
+
+.register .box .header h4 {
+  color: #e17111;
+  text-align: center;
+}
+
+.register .box .form {
+  padding: 20px;
+}
+
+.register .box .form button.btn {
+  color: #004085;
+  border: 1px solid #004085;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.register .box .form button.btn:hover {
+  color: #fff;
+  background-color: #004085;
+}
+
+.password {
+  position: relative;
+  display: block;
+}
+
+.password i {
+  font-size: 20px;
+  position: absolute;
+  top: calc((100% - 20px) / 2);
+  right: 10px;
+  cursor: pointer;
+  color: #004085;
+}
+
+.password i.fa-eye-slash {
+  display: none;
+}
+
+@media (max-width: 1300px) {
+  .Buttons {
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+
+  button[class^=option] {
+    width: 175px;
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+
+  .content {
+    position: relative;
+    margin-top: 80px;
+  }
+
+  h2 {
+    font-size: 17px;
+    margin: 40px auto 20px !important;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 9%;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    -webkit-filter: invert(100%);
+            filter: invert(100%);
+  }
+
+  .sheetes .popUp .box {
+    width: 90%;
+  }
+
+  .sheetes .popUp .box .form-group {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .sheetes .popUp .box .form-group .alert {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 6px;
+  }
+
+  .sheetes .popUp .box .form-group.w-75 {
+    text-align: center;
+  }
+
+  .sheetes .popUp .box .form-group.w-75 .alert {
+    margin-left: 0px;
+  }
+
+  .sheetes .popUp .box .form-group label.notes {
+    transform: inherit;
+  }
+
+  .sheetes .popUp .box label,
+  .sheetes .popUp .box textarea {
+    font-size: 16px;
+    margin-left: 0px !important;
+  }
+
+  .sheetes .popUp .box input,
+  .sheetes .popUp .box select,
+  .sheetes .popUp .box textarea,
+  .sheetes .popUp .box .secondInput,
+  .sheetes .popUp .box .thirdInput,
+  .sheetes .popUp .box .fourthInput,
+  .sheetes .popUp .box .fifthInput,
+  .sheetes .popUp .box .fix-group {
+    width: 100%;
+    margin-left: 0% !important;
+  }
+
+  .sheetes .popUp .box label {
+    width: 100%;
+  }
+
+  .sheetes .popUp .box select[name=status] {
+    margin-left: 0 !important;
+  }
+
+  .sheetes .popUp .box .twisted .fix-group {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+
+  .sheetes .popUp .box .twisted .fix-group .twisted_input {
+    width: 50%;
+  }
+
+  .sheetes .popUp .box .twisted .fix-group .twisted_select {
+    width: 50% !important;
+  }
+
+  .sheetes .popUp .box .size_type .fix-group {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+
+  .sheetes .popUp .box .size_type .fix-group .size {
+    width: 50%;
+  }
+
+  .sheetes .popUp .box .size_type .fix-group .type {
+    width: 50% !important;
+  }
+
+  .sheetes .popUp .box .shapes .fix-group {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+
+  .sheetes .popUp .box .shapes .fix-group .angel {
+    width: 50%;
+  }
+
+  .sheetes .popUp .box .shapes .fix-group .shape {
+    width: 50% !important;
+  }
+
+  .sheetes .popUp .box .numberOfJopOrder .form-group {
+    width: 100%;
+  }
+
+  .sheetes .popUp .box .numberOfJopOrder .form-group label {
+    width: 100%;
+  }
+
+  .sheetes .popUp .box .numberOfJopOrder .form-group input {
+    width: 100%;
+  }
+
+  .sheetes .popUp button {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+  h2 {
+    font-size: 25px;
+    margin: 40px auto 20px !important;
+  }
+
+  .sheetes .popUp button {
+    font-size: 15px;
+  }
+
+  .sheetes .popUp .box i {
+    right: 16px;
+    font-size: 16px;
+  }
+
+  .sheetes .popUp label {
+    font-size: 20px;
+  }
+
+  .sheetes .popUp label {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+  .sheetes .popUp .box {
+    width: 80%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+  .sheetes .popUp .box {
+    width: 70%;
+  }
+}
+
+
+/*# sourceMappingURL=Register.css.map*/

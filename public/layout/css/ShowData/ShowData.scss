@@ -1,0 +1,520 @@
+@import "../JMA.scss";
+
+$firstColor: #004085;
+$secondColor: #e17111;
+$colorOfButtons: (#f00, #0f0, #00f, #000, #b3b317, #0ff, #f0f, #7700ff, #ff5e00, #097, #09c, #f06, #575757, #fb0);
+$thirdColor: #fabf8f;
+$sheetes: (
+  drowing,
+  stranding,
+  insulation,
+  CCVInsulation,
+  screen,
+  assembly,
+  bedding,
+  armouring,
+  lead,
+  taps,
+  sheathing,
+  finish,
+  hold,
+  rewind
+);
+
+abbr[title] {
+  text-decoration: none !important;
+}
+
+.nav-sheet {
+  .dropdown {
+    .dropdown-menu {
+      margin: 1px 0px;
+      .dropdown-item {
+        &:hover {
+          background-color: $firstColor;
+          color: #fff;
+        }
+
+        &.active {
+          background-color: $firstColor;
+          color: $secondColor;
+          font-weight: bolder;
+        }
+      }
+    }
+  }
+}
+
+.headLine {
+  h1 {
+    width: fit-content;
+    width: -moz-fit-content;
+    color: $firstColor;
+    font-weight: bolder;
+  }
+}
+
+#ISO {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  display: none;
+  .box {
+    width: 500px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 30px;
+    position: relative;
+    top: -600px;
+    @include borderRadius(15px);
+    i.fa-times-circle {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      font-size: 25px;
+      color: #f00;
+      cursor: pointer;
+    }
+    h2 {
+      color: $firstColor;
+    }
+  }
+}
+
+#Edit {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  z-index: 10000;
+  display: none;
+  .box {
+    width: 70%;
+    background-color: #fff;
+    padding: 30px;
+    position: relative;
+    top: -600px;
+    @include borderRadius(15px);
+    margin: 30px auto;
+    h2 {
+      color: $firstColor;
+      font-weight: bold;
+    }
+    i.fa-times-circle {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      font-size: 25px;
+      color: #f00;
+      cursor: pointer;
+    }
+    .form-group {
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      label {
+        width: 50%;
+      }
+      .input {
+        width: 50%;
+      }
+      textarea {
+        height: 100px !important;
+      }
+      .thirdInput {
+        display: flex;
+
+        input {
+          width: 33.33%;
+        }
+      }
+
+      .secondInput {
+        display: flex;
+
+        input {
+          width: 50%;
+        }
+      }
+
+      .fourthInput {
+        display: flex;
+
+        input {
+          width: 25%;
+        }
+      }
+
+      .fifthInput {
+        display: flex;
+        input {
+          width: 20%;
+        }
+      }
+    }
+  }
+  textarea {
+    resize: none;
+  }
+
+  input,
+  select,
+  textarea,
+  .secondInput,
+  .thirdInput,
+  .fourthInput,
+  .fifthInput,
+  .fix-group {
+    width: 50%;
+  }
+  label {
+    width: 50%;
+  }
+
+  input,
+  select,
+  textarea,
+  .secondInput,
+  .thirdInput,
+  .fourthInput,
+  .fifthInput,
+  .fix-group {
+    width: 50%;
+    margin-left: 0% !important;
+  }
+
+  .twisted {
+    margin: auto;
+    justify-content: center;
+    .fix-group {
+      display: flex;
+      width: 50%;
+      .twisted_input {
+        width: 50%;
+        font-size: 14px;
+        border-right: none;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+      }
+
+      .twisted_select {
+        width: 50% !important;
+        font-size: 14px;
+        height: auto;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        border: 1px solid #999;
+      }
+    }
+  }
+
+  .size_type {
+    margin: auto;
+    justify-content: center;
+    .fix-group {
+      display: flex;
+      width: 50%;
+      .size {
+        width: 50%;
+        font-size: 14px;
+        border-right: none;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+      }
+      .type {
+        width: 50% !important;
+        font-size: 14px;
+        height: auto;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        border: 1px solid #999;
+      }
+    }
+  }
+
+  .shapes {
+    margin: auto;
+    justify-content: center;
+    .fix-group {
+      display: flex;
+      width: 50%;
+      .angel {
+        width: 50%;
+        font-size: 14px;
+        border-right: none;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+      }
+
+      .shape {
+        width: 50% !important;
+        font-size: 14px;
+        height: auto;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        border: 1px solid #999;
+      }
+    }
+  }
+}
+
+#MakeSure {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  .box {
+    width: 300px;
+    background-color: #fff;
+    padding: 30px;
+    position: relative;
+    top: -600px;
+    @include borderRadius(15px);
+    margin: 30px auto;
+    h2 {
+      color: $firstColor;
+      font-weight: bold;
+    }
+    i {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      font-size: 25px;
+      color: #f00;
+      cursor: pointer;
+    }
+    button {
+      padding: 5px 30px;
+    }
+  }
+}
+
+.error {
+  border-left: 5px solid #f00;
+}
+
+#Data {
+  .jopOrderNumber {
+    .form-group {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  @for $i from 1 through 14 {
+    button.btn-#{nth($sheetes, $i)} {
+      background-color: nth($colorOfButtons, $i);
+      color: #fff;
+    }
+  }
+
+  .sheets {
+    .standard {
+      overflow-x: auto;
+      table.table {
+        background-color: $thirdColor;
+        &.w-75 {
+          width: max-content !important;
+        }
+        &,
+        tr,
+        td,
+        th {
+          border: 1px solid #000;
+          font-size: 14px;
+        }
+      }
+    }
+
+    .filter {
+      .row {
+        align-items: center;
+      }
+      .filterValue {
+        width: 55%;
+        #fillerValue {
+          display: inline;
+        }
+        #reportrange {
+          background: #fff;
+          cursor: pointer;
+          padding: 5px 10px;
+          border: 1px solid #ccc;
+          display: none;
+          @include borderRadius(0.25rem);
+        }
+        #FilterReleased {
+          display: none;
+        }
+        #SubJopOrderNumber,
+        #SheetsType,
+        #Status {
+          display: none;
+          justify-content: space-around;
+          input,
+          label {
+            cursor: pointer;
+          }
+        }
+
+        #ResistanceAtLength {
+          display: none;
+          padding: 0;
+          border: none;
+          .secondInput {
+            display: flex;
+            input {
+              width: 50%;
+            }
+          }
+        }
+      }
+
+      option.filtered {
+        color: #17a2b8;
+        font-weight: bolder;
+      }
+    }
+
+    .actual {
+      overflow-x: auto;
+      table.table {
+        width: max-content;
+        &,
+        tr,
+        td,
+        th {
+          border: 1px solid #000;
+        }
+        thead {
+          background-color: $thirdColor;
+          th {
+            font-size: 14px;
+            text-align: center;
+            &.threeColumns {
+              padding-right: 0;
+              padding-left: 0;
+              min-width: 210px;
+            }
+            &.twoColumns {
+              padding-right: 0;
+              padding-left: 0;
+              min-width: 140px;
+            }
+            &.sixColumns {
+              padding-right: 0;
+              padding-left: 0;
+              min-width: 420px;
+            }
+            &.notes {
+              width: 200px;
+            }
+          }
+        }
+        tbody {
+          th,
+          td {
+            text-align: center;
+            position: relative;
+            padding-top: 20px;
+            &.prepareInput {
+              padding: 0;
+              &.insulation {
+                position: initial;
+                padding: 0;
+                span {
+                  position: relative;
+                  display: block;
+                  border-bottom: 1px solid #000;
+                  min-width: 60px;
+                  min-height: 35px;
+                  width: 100%;
+                  &:nth-of-type(2) {
+                    border-bottom: none;
+                  }
+                }
+              }
+              span {
+                position: relative;
+                display: block;
+                border-bottom: 1px solid #000;
+                padding: 5px;
+                min-width: 80px;
+                min-height: 35px;
+                width: 100%;
+                text-align: center;
+                &.th {
+                  font-size: 14px;
+                  font-weight: 700;
+                }
+                &:nth-of-type(4) {
+                  border-bottom: none;
+                }
+              }
+            }
+            &.resistanceAtLength {
+              position: initial;
+              padding: 0;
+              span {
+                position: relative;
+                display: block;
+                border-bottom: 1px solid #000;
+                min-width: 80px;
+                min-height: 35px;
+                width: 100%;
+                text-align: center;
+                &:last-child {
+                  border-bottom: none;
+                }
+              }
+            }
+            abbr {
+              position: absolute;
+              top: 0px;
+              right: 2px;
+              i {
+                color: $firstColor;
+              }
+            }
+          }
+
+          tr:nth-last-of-type(odd) {
+            background-color: #aaa;
+          }
+          td:not(.option) {
+            min-width: 70px;
+          }
+          td.notes {
+            font-size: 14px;
+            i {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+
+    #Limit {
+      cursor: pointer;
+      background-color: $firstColor;
+      color: #fff;
+    }
+  }
+}
+
+@import "responsive";

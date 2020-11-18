@@ -1,0 +1,30 @@
+@import "../JMA.scss";
+
+$firstColor: #004085;
+$secondColor: #e17111;
+
+nav.bg-light {
+  a.navbar-brand {
+    width: 20% !important;
+    margin-right: 0px !important;
+  }
+  .dropdown {
+    button {
+      &:focus {
+        box-shadow: none;
+      }
+    }
+    .dropdown-menu {
+      .dropdown-item {
+        margin-bottom: 3px;
+        font-weight: 600;
+        &:hover {
+          background-color: $firstColor !important;
+          color: $secondColor;
+        }
+      }
+    }
+  }
+}
+
+@import "../Navbar/responsive";

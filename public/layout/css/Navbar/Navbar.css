@@ -1,0 +1,55 @@
+nav.bg-light a.navbar-brand {
+  width: 20% !important;
+  margin-right: 0px !important;
+}
+
+nav.bg-light .dropdown button:focus {
+  box-shadow: none;
+}
+
+nav.bg-light .dropdown .dropdown-menu .dropdown-item {
+  margin-bottom: 3px;
+  font-weight: 600;
+}
+
+nav.bg-light .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #004085 !important;
+  color: #e17111;
+}
+
+@media (max-width: 1300px) {
+  nav.navbar a.navbar-brand {
+    width: 40% !important;
+  }
+
+  nav.navbar a.navbar-brand img {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+  nav.navbar a.navbar-brand {
+    width: 35% !important;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+  nav.navbar a.navbar-brand {
+    width: 35% !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+  nav.navbar a.navbar-brand {
+    width: 25% !important;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1300px) {
+  nav.navbar a.navbar-brand {
+    width: 20% !important;
+  }
+}
+
+
+/*# sourceMappingURL=Navbar.css.map*/

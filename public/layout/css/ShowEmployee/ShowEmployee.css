@@ -1,0 +1,244 @@
+h1 {
+  color: #004085;
+  font-weight: bolder;
+}
+
+#Employee .filter .row {
+  align-items: center;
+}
+
+#Employee .filter .filterValue {
+  width: 55%;
+}
+
+#Employee .filter .filterValue #fillerValue {
+  display: inline;
+}
+
+#Employee .filter .filterValue #Shift,
+#Employee .filter .filterValue #Activation {
+  display: none;
+  justify-content: space-around;
+}
+
+#Employee .filter .filterValue #Shift input,
+#Employee .filter .filterValue #Shift label,
+#Employee .filter .filterValue #Activation input,
+#Employee .filter .filterValue #Activation label {
+  cursor: pointer;
+}
+
+#Employee .filter option.filtered {
+  color: #17a2b8;
+  font-weight: bolder;
+}
+
+#Employee .filter #Filter {
+  font-size: 12px;
+}
+
+#Employee table.table {
+  width: 1200px;
+  margin: auto;
+}
+
+#Employee table.table thead {
+  background-color: #004085;
+  color: #fff;
+}
+
+#Employee table.table tbody .item label {
+  cursor: pointer;
+}
+
+#Employee table.table tbody .activation .form-check {
+  padding: 0;
+  margin: 0;
+}
+
+#Employee table.table tbody .activation .form-check .box {
+  margin: auto;
+  width: 60px;
+  height: 30px;
+  position: relative;
+  border: none;
+  border-radius: 30px;
+}
+
+#Employee table.table tbody .activation .form-check .box button {
+  position: absolute;
+  top: 1px;
+  width: 28px;
+  height: 28px;
+  border: none;
+  font-size: 10px;
+  font-weight: 700;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+#Employee table.table tbody .activation .form-check .box button:focus {
+  outline: none;
+}
+
+#Employee table.table tbody .offline .form-check .box {
+  background-color: #333;
+}
+
+#Employee table.table tbody .offline .form-check .box button {
+  left: 1px;
+  cursor: default;
+}
+
+#Employee table.table tbody .online .form-check .box {
+  background-color: #0f0;
+}
+
+#Employee table.table tbody .online .form-check .box button {
+  left: 30px;
+  color: #0f0;
+}
+
+#Limit {
+  cursor: pointer;
+  background-color: #004085;
+  color: #fff;
+}
+
+#MakeSure {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+#MakeSure .box {
+  width: 300px;
+  background-color: #fff;
+  padding: 30px;
+  position: relative;
+  top: -600px;
+  border-radius: 15px;
+  margin: 30px auto;
+}
+
+#MakeSure .box h2 {
+  color: #004085;
+  font-weight: bold;
+}
+
+#MakeSure .box i {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 25px;
+  color: #f00;
+  cursor: pointer;
+}
+
+#MakeSure .box button {
+  padding: 5px 30px;
+}
+
+#Edit {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  z-index: 10000;
+  display: none;
+}
+
+#Edit .box {
+  width: 40%;
+  background-color: #fff;
+  padding: 40px;
+  position: relative;
+  top: -600px;
+  border-radius: 15px;
+  margin: 30px auto;
+}
+
+#Edit .box h2 {
+  color: #004085;
+  font-weight: bold;
+}
+
+#Edit .box i {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 25px;
+  color: #f00;
+  cursor: pointer;
+}
+
+#Edit .box .form-group {
+  margin: auto;
+}
+
+#Edit .box .form-group label {
+  font-weight: 600;
+}
+
+#Edit .box .form-group .password {
+  position: relative;
+  display: block;
+}
+
+#Edit .box .form-group .password i {
+  font-size: 20px;
+  position: absolute;
+  top: calc((100% - 20px) / 2);
+  right: 10px;
+  cursor: pointer;
+  color: #004085;
+}
+
+#Edit .box .form-group .password i.fa-eye-slash {
+  display: none;
+}
+
+#Edit textarea {
+  resize: none;
+}
+
+@media (max-width: 1300px) {
+  .container-lg {
+    overflow-x: auto;
+  }
+
+  #Employee .filterValue {
+    width: 90% !important;
+  }
+
+  #Employee .filterValue .form-group label {
+    width: 20%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+  #Employee .filterValue {
+    width: 95% !important;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1300px) {
+  #Employee .filterValue {
+    width: 75% !important;
+  }
+}
+
+
+/*# sourceMappingURL=ShowEmployee.css.map*/

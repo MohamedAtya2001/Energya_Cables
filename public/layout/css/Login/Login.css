@@ -1,0 +1,72 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background: #ada996;
+  background: linear-gradient(to right, #eaeaea, #dbdbdb, #f2f2f2, #ada996);
+}
+
+.container .box {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .box .login {
+  width: 400px;
+  height: auto;
+  border: 2px solid #fff;
+  padding: 50px;
+  border-radius: 30px;
+  position: absolute;
+  transition: 1s;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.container .box .login .admin,
+.container .box .login .employee {
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  color: #004085;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.password {
+  position: relative;
+  display: block;
+}
+
+.password i {
+  font-size: 20px;
+  position: absolute;
+  top: calc((100% - 20px) / 2);
+  right: 10px;
+  cursor: pointer;
+  color: #004085;
+}
+
+.password i.fa-eye-slash {
+  display: none;
+}
+
+@media (max-width: 1300px) {
+  .container .box .login {
+    width: 300px;
+    padding: 30px;
+  }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+  .container .box .login {
+    width: 350px;
+    padding: 40px;
+  }
+}
+
+
+/*# sourceMappingURL=Login.css.map*/

@@ -1,0 +1,42 @@
+@media (max-width: 1300px) {
+    .container-lg {
+        overflow-x: auto;
+    }
+
+    #Admin {
+        .filter {
+            .filterValue {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+    #Admin {
+        .filter {
+            .filterValue {
+                width: 70%;
+            }
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    #Admin {
+        .filter {
+            .filterValue {
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1300px) {
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+}

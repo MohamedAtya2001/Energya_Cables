@@ -1,0 +1,41 @@
+@media (max-width: 1300px) {
+    .container-lg {
+        overflow-x: auto;
+    }
+
+    #Employee {
+        .filterValue {
+            width: 90% !important;
+            .form-group {
+                label {
+                    width: 20%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    #Employee {
+        .filterValue {
+            width: 95% !important;
+        }
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1300px) {
+    #Employee {
+        .filterValue {
+            width: 75% !important;
+        }
+    }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+}

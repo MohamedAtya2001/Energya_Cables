@@ -1,0 +1,856 @@
+.error {
+  border-left: 5px solid #f00;
+}
+
+.Buttons {
+  /* background-image: url("../../images/Home/logo.gif");
+  background-position: 95% 90%; */
+  background-repeat: no-repeat;
+}
+
+.input,
+textarea {
+  color: #004085 !important;
+  font-weight: 700 !important;
+}
+
+.input:disabled,
+textarea:disabled {
+  background-color: transparent !important;
+  border: 1px solid #fff !important;
+}
+
+.input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  font-weight: 400 !important;
+}
+
+.input::-moz-placeholder, textarea::-moz-placeholder {
+  font-weight: 400 !important;
+}
+
+.input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  font-weight: 400 !important;
+}
+
+.input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+  font-weight: 400 !important;
+}
+
+.input::placeholder,
+textarea::placeholder {
+  font-weight: 400 !important;
+}
+
+.content {
+  position: relative;
+}
+
+nav.bg-light a.navbar-brand {
+  color: #004085;
+  font-size: 30px;
+  font-weight: 900;
+  position: relative;
+}
+
+nav.bg-light a.navbar-brand span {
+  color: #e17111;
+  font-size: 13px;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+}
+
+nav.bg-light a.navbar-brand:hover {
+  color: #004085;
+}
+
+nav.bg-light .dropdown-menu .dropdown-item {
+  margin-bottom: 3px;
+  font-weight: 600;
+}
+
+nav.bg-light .dropdown-menu .dropdown-item:hover {
+  background-color: #004085 !important;
+  color: #e17111;
+}
+
+h2 {
+  color: #004085;
+  font-weight: bolder;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+textarea {
+  height: 100px !important;
+  resize: none;
+}
+
+button[class^=option] {
+  width: 155px;
+  background-color: #004085;
+  border-color: #004085;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+button[class^=option]:hover {
+  background-color: #e17111;
+  border-color: #e17111;
+}
+
+.Buttons .col-lg-3:nth-of-type(1) button {
+  background-color: #f00;
+  border-color: #f00;
+}
+
+.Buttons .col-lg-3:nth-of-type(2) button {
+  background-color: #0f0;
+  border-color: #0f0;
+}
+
+.Buttons .col-lg-3:nth-of-type(3) button {
+  background-color: #00f;
+  border-color: #00f;
+}
+
+.Buttons .col-lg-3:nth-of-type(4) button {
+  background-color: #000;
+  border-color: #000;
+}
+
+.Buttons .col-lg-3:nth-of-type(5) button {
+  background-color: #b3b317;
+  border-color: #b3b317;
+}
+
+.Buttons .col-lg-3:nth-of-type(6) button {
+  background-color: #0ff;
+  border-color: #0ff;
+}
+
+.Buttons .col-lg-3:nth-of-type(7) button {
+  background-color: #f0f;
+  border-color: #f0f;
+}
+
+.Buttons .col-lg-3:nth-of-type(8) button {
+  background-color: #7700ff;
+  border-color: #7700ff;
+}
+
+.Buttons .col-lg-3:nth-of-type(9) button {
+  background-color: #ff5e00;
+  border-color: #ff5e00;
+}
+
+.Buttons .col-lg-3:nth-of-type(10) button {
+  background-color: #097;
+  border-color: #097;
+}
+
+.Buttons .col-lg-3:nth-of-type(11) button {
+  background-color: #09c;
+  border-color: #09c;
+}
+
+.Buttons .col-lg-3:nth-of-type(12) button {
+  background-color: #f06;
+  border-color: #f06;
+}
+
+.Buttons .col-lg-3:nth-of-type(13) button {
+  background-color: #575757;
+  border-color: #575757;
+}
+
+.Buttons .col-lg-3:nth-of-type(14) button {
+  background-color: #fb0;
+  border-color: #fb0;
+}
+
+.sheetes {
+  /* .popUp_data_option1 {
+    label {
+      width: 50%;
+    }
+  } */
+  /* .popUp_data_option2 {
+    label {
+      width: 50%;
+    }
+  } */
+  /* .popUp_data_option3 {
+    label {
+      width: 50%;
+    }
+  } */
+  /* .popUp_data_option4 {
+    label {
+      width: 50%;
+    }
+  } */
+  /* .popUp_data_option5 {
+    label {
+      width: 50%;
+    }
+  } */
+  /* .popUp_data_option6 {
+    label {
+      width: 50%;
+    }
+  } */
+  /* .popUp_data_option7 {
+    label {
+      width: 50%;
+    }
+  } */
+  /* .popUp_data_option8 {
+    label {
+      width: 50%;
+    }
+  } */
+  /* .popUp_data_option9 {
+    label {
+      width: 50%;
+    }
+  } */
+  /* .popUp_data_option10 {
+    label {
+      width: 50%;
+    }
+  } */
+  /* .popUp_data_option11 {
+    label {
+      width: 50%;
+    }
+  } */
+  /* .popUp_data_option12 {
+    label {
+      width: 50%;
+    }
+  } */
+  /* .popUp_data_option13 {
+    label {
+      width: 50%;
+    }
+  } */
+  /* .popUp_data_option14 {
+    label {
+      width: 50%;
+    }
+  } */
+}
+
+.sheetes .popUp {
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow-x: hidden;
+}
+
+.sheetes .popUp .box {
+  background: #ada996;
+  background: linear-gradient(to right, #eaeaea, #dbdbdb, #f2f2f2, #ada996);
+  width: 70%;
+  margin: 30px auto;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 15px;
+  position: relative;
+}
+
+.sheetes .popUp .box i.fa-minus-circle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 25px;
+  color: #0f0;
+  cursor: pointer;
+}
+
+.sheetes .popUp .box i.fa-trash-restore {
+  margin-left: 10px;
+  font-size: 25px;
+  color: #ffc107;
+  cursor: pointer;
+}
+
+.sheetes .popUp .box .form-group {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.sheetes .popUp .box .form-group .thirdInput {
+  display: flex;
+}
+
+.sheetes .popUp .box .form-group .thirdInput input {
+  width: 33.33%;
+}
+
+.sheetes .popUp .box .form-group .secondInput {
+  display: flex;
+}
+
+.sheetes .popUp .box .form-group .secondInput input {
+  width: 50%;
+}
+
+.sheetes .popUp .box .form-group .fourthInput {
+  display: flex;
+}
+
+.sheetes .popUp .box .form-group .fourthInput input {
+  width: 25%;
+}
+
+.sheetes .popUp .box .form-group .fifthInput {
+  display: flex;
+}
+
+.sheetes .popUp .box .form-group .fifthInput input {
+  width: 20%;
+}
+
+.sheetes .popUp .box input,
+.sheetes .popUp .box select,
+.sheetes .popUp .box textarea,
+.sheetes .popUp .box .secondInput,
+.sheetes .popUp .box .thirdInput,
+.sheetes .popUp .box .fourthInput,
+.sheetes .popUp .box .fifthInput,
+.sheetes .popUp .box .fix-group {
+  width: 50%;
+}
+
+.sheetes .popUp .box label {
+  width: 50%;
+}
+
+.sheetes .popUp .box .twisted {
+  margin: auto;
+  justify-content: center;
+}
+
+.sheetes .popUp .box .twisted .fix-group {
+  display: flex;
+  width: 50%;
+}
+
+.sheetes .popUp .box .twisted .fix-group .twisted_input {
+  width: 50%;
+  font-size: 14px;
+  border-right: none;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.sheetes .popUp .box .twisted .fix-group .twisted_select {
+  width: 50% !important;
+  font-size: 14px;
+  height: auto;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border: 1px solid #999;
+}
+
+.sheetes .popUp .box .size_type {
+  margin: auto;
+  justify-content: center;
+}
+
+.sheetes .popUp .box .size_type .fix-group {
+  display: flex;
+  width: 50%;
+}
+
+.sheetes .popUp .box .size_type .fix-group .size {
+  width: 50%;
+  font-size: 14px;
+  border-right: none;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.sheetes .popUp .box .size_type .fix-group .type {
+  width: 50% !important;
+  font-size: 14px;
+  height: auto;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border: 1px solid #999;
+}
+
+.sheetes .popUp .box .shapes {
+  margin: auto;
+  justify-content: center;
+}
+
+.sheetes .popUp .box .shapes .fix-group {
+  display: flex;
+  width: 50%;
+}
+
+.sheetes .popUp .box .shapes .fix-group .angel {
+  width: 50%;
+  font-size: 14px;
+  border-right: none;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.sheetes .popUp .box .shapes .fix-group .shape {
+  width: 50% !important;
+  font-size: 14px;
+  height: auto;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border: 1px solid #999;
+}
+
+.sheetes .popUp .box .numberOfJopOrder .form-group {
+  width: 60%;
+}
+
+.sheetes .popUp .box .numberOfJopOrder .form-group label {
+  width: 30%;
+}
+
+.sheetes .popUp .box .numberOfJopOrder .form-group input {
+  width: 70%;
+}
+
+.sheetes .popUp .box .dataNotComplete {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.sheetes .popUp .box .dataNotComplete .dropdownalert {
+  width: -webkit-fit-content;
+  width: fit-content;
+  width: -moz-fit-content;
+  position: relative;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.sheetes .popUp .box .dataNotComplete .dropdownalert .dropdownalert-button i {
+  margin-left: 10px;
+}
+
+.sheetes .popUp .box .dataNotComplete .dropdownalert .dropdownalert-menu {
+  padding: 10px;
+  border: 1px solid #777;
+  position: absolute;
+  border-radius: 5px;
+  margin-top: 1px;
+  display: none;
+  position: absolute;
+  z-index: 10;
+  background: #fff;
+}
+
+.sheetes .popUp .box .dataNotComplete .dropdownalert .dropdownalert-menu hr {
+  margin: 0;
+}
+
+.sheetes .popUp .box .dataNotComplete .dropdownalert .dropdownalert-menu .dropdownalert-item {
+  background-color: #fff;
+}
+
+.sheetes .popUp .box .dataNotComplete .dropdownalert .dropdownalert-menu .dropdownalert-item button {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.sheetes .drowing {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  display: none;
+}
+
+.sheetes .drowing .carousel {
+  position: initial;
+}
+
+.sheetes .stranding {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  display: none;
+}
+
+.sheetes .stranding .carousel {
+  position: initial;
+}
+
+.sheetes .insulation {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  display: none;
+}
+
+.sheetes .insulation .carousel {
+  position: initial;
+}
+
+.sheetes .CCVInsulation {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  display: none;
+}
+
+.sheetes .CCVInsulation .carousel {
+  position: initial;
+}
+
+.sheetes .screen {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  display: none;
+}
+
+.sheetes .screen .carousel {
+  position: initial;
+}
+
+.sheetes .assembly {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  display: none;
+}
+
+.sheetes .assembly .carousel {
+  position: initial;
+}
+
+.sheetes .bedding {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  display: none;
+}
+
+.sheetes .bedding .carousel {
+  position: initial;
+}
+
+.sheetes .armouring {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  display: none;
+}
+
+.sheetes .armouring .carousel {
+  position: initial;
+}
+
+.sheetes .Lead {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  display: none;
+}
+
+.sheetes .Lead .carousel {
+  position: initial;
+}
+
+.sheetes .taps {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  display: none;
+}
+
+.sheetes .taps .carousel {
+  position: initial;
+}
+
+.sheetes .sheathing {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  display: none;
+}
+
+.sheetes .sheathing .carousel {
+  position: initial;
+}
+
+.sheetes .finish {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  display: none;
+}
+
+.sheetes .finish .carousel {
+  position: initial;
+}
+
+.sheetes .hold {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  display: none;
+}
+
+.sheetes .hold .carousel {
+  position: initial;
+}
+
+.sheetes .rewind {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  display: none;
+}
+
+.sheetes .rewind .carousel {
+  position: initial;
+}
+
+.sheetes a.carousel-control-prev,
+.sheetes a.carousel-control-next {
+  height: 50px;
+  position: fixed;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+@media (max-width: 1300px) {
+  .Buttons {
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+
+  button[class^=option] {
+    width: 175px;
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+
+  .content {
+    position: relative;
+    margin-top: 80px;
+  }
+
+  h2 {
+    font-size: 17px;
+    margin: 40px auto 20px !important;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 9%;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    -webkit-filter: invert(100%);
+            filter: invert(100%);
+  }
+
+  .sheetes .popUp .box {
+    width: 90%;
+  }
+
+  .sheetes .popUp .box .form-group {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .sheetes .popUp .box .form-group .alert {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 6px;
+  }
+
+  .sheetes .popUp .box .form-group.w-75 {
+    text-align: center;
+  }
+
+  .sheetes .popUp .box .form-group.w-75 .alert {
+    margin-left: 0px;
+  }
+
+  .sheetes .popUp .box .form-group label.notes {
+    transform: inherit;
+  }
+
+  .sheetes .popUp .box label,
+  .sheetes .popUp .box textarea {
+    font-size: 16px;
+    margin-left: 0px !important;
+  }
+
+  .sheetes .popUp .box input,
+  .sheetes .popUp .box select,
+  .sheetes .popUp .box textarea,
+  .sheetes .popUp .box .secondInput,
+  .sheetes .popUp .box .thirdInput,
+  .sheetes .popUp .box .fourthInput,
+  .sheetes .popUp .box .fifthInput,
+  .sheetes .popUp .box .fix-group {
+    width: 100%;
+    margin-left: 0% !important;
+  }
+
+  .sheetes .popUp .box label {
+    width: 100%;
+  }
+
+  .sheetes .popUp .box select[name=status] {
+    margin-left: 0 !important;
+  }
+
+  .sheetes .popUp .box .twisted .fix-group {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+
+  .sheetes .popUp .box .twisted .fix-group .twisted_input {
+    width: 50%;
+  }
+
+  .sheetes .popUp .box .twisted .fix-group .twisted_select {
+    width: 50% !important;
+  }
+
+  .sheetes .popUp .box .size_type .fix-group {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+
+  .sheetes .popUp .box .size_type .fix-group .size {
+    width: 50%;
+  }
+
+  .sheetes .popUp .box .size_type .fix-group .type {
+    width: 50% !important;
+  }
+
+  .sheetes .popUp .box .shapes .fix-group {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+
+  .sheetes .popUp .box .shapes .fix-group .angel {
+    width: 50%;
+  }
+
+  .sheetes .popUp .box .shapes .fix-group .shape {
+    width: 50% !important;
+  }
+
+  .sheetes .popUp .box .numberOfJopOrder .form-group {
+    width: 100%;
+  }
+
+  .sheetes .popUp .box .numberOfJopOrder .form-group label {
+    width: 100%;
+  }
+
+  .sheetes .popUp .box .numberOfJopOrder .form-group input {
+    width: 100%;
+  }
+
+  .sheetes .popUp button {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+  h2 {
+    font-size: 25px;
+    margin: 40px auto 20px !important;
+  }
+
+  .sheetes .popUp button {
+    font-size: 15px;
+  }
+
+  .sheetes .popUp .box i {
+    right: 16px;
+    font-size: 16px;
+  }
+
+  .sheetes .popUp label {
+    font-size: 20px;
+  }
+
+  .sheetes .popUp label {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+  .sheetes .popUp .box {
+    width: 80%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+  .sheetes .popUp .box {
+    width: 70%;
+  }
+}
+
+
+/*# sourceMappingURL=Home.css.map*/

@@ -1,0 +1,193 @@
+@media (max-width: 1300px) {
+  .headLine {
+    h1 {
+      font-size: 23px;
+    }
+  }
+
+  #Edit {
+    .box {
+      width: 90%;
+      .form-group {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .alert {
+          width: 100%;
+          margin-left: 0px;
+          margin-top: 6px;
+        }
+        &.w-75 {
+          text-align: center;
+          .alert {
+            margin-left: 0px;
+          }
+        }
+        label.notes {
+          transform: inherit;
+        }
+        .input,
+        textarea {
+          margin-left: 0px !important;
+          width: 100%;
+        }
+      }
+      label,
+      textarea {
+        width: 100% !important;
+        font-size: 16px;
+      }
+
+      .twisted {
+        padding: 0px 15px;
+        .twisted_input {
+          width: 50%;
+          margin-left: 0 !important;
+        }
+
+        .twisted_select {
+          width: 50% !important;
+          font-size: 15px;
+          margin-left: 0 !important;
+        }
+      }
+
+      .size_type {
+        padding: 0px 15px;
+        .size {
+          width: 50%;
+          margin-left: 0 !important;
+        }
+
+        .type {
+          width: 50% !important;
+          font-size: 15px;
+          margin-left: 0 !important;
+        }
+      }
+
+      .shapes {
+        padding: 0px 15px;
+
+        .angel {
+          width: 50%;
+          margin-left: 0 !important;
+        }
+
+        .shape {
+          width: 50% !important;
+          font-size: 15px;
+          margin-left: 0 !important;
+        }
+      }
+    }
+  }
+
+  #Traceability {
+    .box {
+      h2 {
+        font-size: 22px;
+      }
+    }
+  }
+
+  #Data {
+    .button-print {
+      button {
+        font-size: 13px;
+      }
+    }
+    h4 {
+      font-size: 15px;
+    }
+    .filterValue {
+      width: 90% !important;
+      .form-group {
+        label {
+          width: 20%;
+        }
+      }
+    }
+    .sheets {
+      .standard {
+        table {
+          th {
+            padding: 9px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+  .nav-sheet {
+    .button.col-6 {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+    }
+  }
+
+  #Data {
+    .jopOrderNumber {
+      button {
+        margin: 5px 40px 20px !important;
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+  .nav-sheet {
+    .button.col-6 {
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+  }
+  #Edit {
+    .box {
+      width: 80%;
+    }
+  }
+  #Data {
+    .sheets {
+      .filterValue {
+        width: 95% !important;
+      }
+    }
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1300px) {
+  .nav-sheet {
+    .button.col-6 {
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
+  }
+  #Edit {
+    .box {
+      width: 70%;
+    }
+  }
+  #Data {
+    .sheets {
+      .filterValue {
+        width: 75% !important;
+      }
+    }
+  }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+  .nav-sheet {
+    .button.col-6 {
+      flex: 0 0 14.28%;
+      max-width: 14.28%;
+    }
+  }
+}

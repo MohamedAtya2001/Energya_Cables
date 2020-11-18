@@ -1,0 +1,81 @@
+@mixin borderRadius($BR) {
+  -webkit-border-radius: $BR;
+  -moz-border-radius: $BR;
+  -o-border-radius: $BR;
+  -ms-border-radius: $BR;
+  border-radius: $BR;
+}
+
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -o-transition: $transition;
+  -ms-transition: $transition;
+  transition: $transition;
+}
+
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -moz-transform: $property;
+  -o-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+
+@mixin animate($animate) {
+  -webkit-animation: $animate;
+  -moz-animation: $animate;
+  -o-animation: $animate;
+  animation: $animate;
+}
+
+@mixin layout() {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+@mixin keyFrames($animation-name) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+
+  @-moz-keyframes #{$animation-name} {
+    @content;
+  }
+
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+
+@mixin clearFix {
+  &::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+@mixin position($type, $distance) {
+  position: $type;
+  @if (nth($distance, 1) != null) {
+    top: nth($distance, 1);
+  }
+  @if (nth($distance, 2) != null) {
+    right: nth($distance, 2);
+  }
+  @if (nth($distance, 3) != null) {
+    bottom: nth($distance, 3);
+  }
+  @if (nth($distance, 4) != null) {
+    left: nth($distance, 4);
+  }
+}
+
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}

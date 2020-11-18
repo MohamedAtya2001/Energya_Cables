@@ -1,0 +1,868 @@
+abbr[title] {
+  text-decoration: none !important;
+}
+
+.nav-sheet .dropdown .dropdown-menu {
+  margin: 1px 0px;
+}
+
+.nav-sheet .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #004085;
+  color: #fff;
+}
+
+.nav-sheet .dropdown .dropdown-menu .dropdown-item.active {
+  background-color: #004085;
+  color: #e17111;
+  font-weight: bolder;
+}
+
+.headLine h1 {
+  width: -webkit-fit-content;
+  width: fit-content;
+  width: -moz-fit-content;
+  color: #004085;
+  font-weight: bolder;
+}
+
+#ISO {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  display: none;
+}
+
+#ISO .box {
+  width: 500px;
+  margin: 100px auto;
+  background-color: #fff;
+  padding: 30px;
+  position: relative;
+  top: -600px;
+  border-radius: 15px;
+}
+
+#ISO .box i.fa-times-circle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 25px;
+  color: #f00;
+  cursor: pointer;
+}
+
+#ISO .box h2 {
+  color: #004085;
+}
+
+#Edit {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  z-index: 10000;
+  display: none;
+}
+
+#Edit .box {
+  width: 70%;
+  background-color: #fff;
+  padding: 30px;
+  position: relative;
+  top: -600px;
+  border-radius: 15px;
+  margin: 30px auto;
+}
+
+#Edit .box h2 {
+  color: #004085;
+  font-weight: bold;
+}
+
+#Edit .box i.fa-times-circle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 25px;
+  color: #f00;
+  cursor: pointer;
+}
+
+#Edit .box .form-group {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+#Edit .box .form-group label {
+  width: 50%;
+}
+
+#Edit .box .form-group .input {
+  width: 50%;
+}
+
+#Edit .box .form-group textarea {
+  height: 100px !important;
+}
+
+#Edit .box .form-group .thirdInput {
+  display: flex;
+}
+
+#Edit .box .form-group .thirdInput input {
+  width: 33.33%;
+}
+
+#Edit .box .form-group .secondInput {
+  display: flex;
+}
+
+#Edit .box .form-group .secondInput input {
+  width: 50%;
+}
+
+#Edit .box .form-group .fourthInput {
+  display: flex;
+}
+
+#Edit .box .form-group .fourthInput input {
+  width: 25%;
+}
+
+#Edit .box .form-group .fifthInput {
+  display: flex;
+}
+
+#Edit .box .form-group .fifthInput input {
+  width: 20%;
+}
+
+#Edit textarea {
+  resize: none;
+}
+
+#Edit input,
+#Edit select,
+#Edit textarea,
+#Edit .secondInput,
+#Edit .thirdInput,
+#Edit .fourthInput,
+#Edit .fifthInput,
+#Edit .fix-group {
+  width: 50%;
+}
+
+#Edit label {
+  width: 50%;
+}
+
+#Edit input,
+#Edit select,
+#Edit textarea,
+#Edit .secondInput,
+#Edit .thirdInput,
+#Edit .fourthInput,
+#Edit .fifthInput,
+#Edit .fix-group {
+  width: 50%;
+  margin-left: 0% !important;
+}
+
+#Edit .twisted {
+  margin: auto;
+  justify-content: center;
+}
+
+#Edit .twisted .fix-group {
+  display: flex;
+  width: 50%;
+}
+
+#Edit .twisted .fix-group .twisted_input {
+  width: 50%;
+  font-size: 14px;
+  border-right: none;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#Edit .twisted .fix-group .twisted_select {
+  width: 50% !important;
+  font-size: 14px;
+  height: auto;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border: 1px solid #999;
+}
+
+#Edit .size_type {
+  margin: auto;
+  justify-content: center;
+}
+
+#Edit .size_type .fix-group {
+  display: flex;
+  width: 50%;
+}
+
+#Edit .size_type .fix-group .size {
+  width: 50%;
+  font-size: 14px;
+  border-right: none;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#Edit .size_type .fix-group .type {
+  width: 50% !important;
+  font-size: 14px;
+  height: auto;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border: 1px solid #999;
+}
+
+#Edit .shapes {
+  margin: auto;
+  justify-content: center;
+}
+
+#Edit .shapes .fix-group {
+  display: flex;
+  width: 50%;
+}
+
+#Edit .shapes .fix-group .angel {
+  width: 50%;
+  font-size: 14px;
+  border-right: none;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#Edit .shapes .fix-group .shape {
+  width: 50% !important;
+  font-size: 14px;
+  height: auto;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border: 1px solid #999;
+}
+
+#MakeSure {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+#MakeSure .box {
+  width: 300px;
+  background-color: #fff;
+  padding: 30px;
+  position: relative;
+  top: -600px;
+  border-radius: 15px;
+  margin: 30px auto;
+}
+
+#MakeSure .box h2 {
+  color: #004085;
+  font-weight: bold;
+}
+
+#MakeSure .box i {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 25px;
+  color: #f00;
+  cursor: pointer;
+}
+
+#MakeSure .box button {
+  padding: 5px 30px;
+}
+
+.error {
+  border-left: 5px solid #f00;
+}
+
+#Data .jopOrderNumber .form-group {
+  display: flex;
+  justify-content: center;
+}
+
+#Data button.btn-drowing {
+  background-color: #f00;
+  color: #fff;
+}
+
+#Data button.btn-stranding {
+  background-color: #0f0;
+  color: #fff;
+}
+
+#Data button.btn-insulation {
+  background-color: #00f;
+  color: #fff;
+}
+
+#Data button.btn-CCVInsulation {
+  background-color: #000;
+  color: #fff;
+}
+
+#Data button.btn-screen {
+  background-color: #b3b317;
+  color: #fff;
+}
+
+#Data button.btn-assembly {
+  background-color: #0ff;
+  color: #fff;
+}
+
+#Data button.btn-bedding {
+  background-color: #f0f;
+  color: #fff;
+}
+
+#Data button.btn-armouring {
+  background-color: #7700ff;
+  color: #fff;
+}
+
+#Data button.btn-lead {
+  background-color: #ff5e00;
+  color: #fff;
+}
+
+#Data button.btn-taps {
+  background-color: #097;
+  color: #fff;
+}
+
+#Data button.btn-sheathing {
+  background-color: #09c;
+  color: #fff;
+}
+
+#Data button.btn-finish {
+  background-color: #f06;
+  color: #fff;
+}
+
+#Data button.btn-hold {
+  background-color: #575757;
+  color: #fff;
+}
+
+#Data button.btn-rewind {
+  background-color: #fb0;
+  color: #fff;
+}
+
+#Data .sheets .standard {
+  overflow-x: auto;
+}
+
+#Data .sheets .standard table.table {
+  background-color: #fabf8f;
+}
+
+#Data .sheets .standard table.table.w-75 {
+  width: -webkit-max-content !important;
+  width: -moz-max-content !important;
+  width: max-content !important;
+}
+
+#Data .sheets .standard table.table,
+#Data .sheets .standard table.table tr,
+#Data .sheets .standard table.table td,
+#Data .sheets .standard table.table th {
+  border: 1px solid #000;
+  font-size: 14px;
+}
+
+#Data .sheets .filter .row {
+  align-items: center;
+}
+
+#Data .sheets .filter .filterValue {
+  width: 55%;
+}
+
+#Data .sheets .filter .filterValue #fillerValue {
+  display: inline;
+}
+
+#Data .sheets .filter .filterValue #reportrange {
+  background: #fff;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  display: none;
+  border-radius: 0.25rem;
+}
+
+#Data .sheets .filter .filterValue #FilterReleased {
+  display: none;
+}
+
+#Data .sheets .filter .filterValue #SubJopOrderNumber,
+#Data .sheets .filter .filterValue #SheetsType,
+#Data .sheets .filter .filterValue #Status {
+  display: none;
+  justify-content: space-around;
+}
+
+#Data .sheets .filter .filterValue #SubJopOrderNumber input,
+#Data .sheets .filter .filterValue #SubJopOrderNumber label,
+#Data .sheets .filter .filterValue #SheetsType input,
+#Data .sheets .filter .filterValue #SheetsType label,
+#Data .sheets .filter .filterValue #Status input,
+#Data .sheets .filter .filterValue #Status label {
+  cursor: pointer;
+}
+
+#Data .sheets .filter .filterValue #ResistanceAtLength {
+  display: none;
+  padding: 0;
+  border: none;
+}
+
+#Data .sheets .filter .filterValue #ResistanceAtLength .secondInput {
+  display: flex;
+}
+
+#Data .sheets .filter .filterValue #ResistanceAtLength .secondInput input {
+  width: 50%;
+}
+
+#Data .sheets .filter option.filtered {
+  color: #17a2b8;
+  font-weight: bolder;
+}
+
+#Data .sheets .actual {
+  overflow-x: auto;
+}
+
+#Data .sheets .actual table.table {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+#Data .sheets .actual table.table,
+#Data .sheets .actual table.table tr,
+#Data .sheets .actual table.table td,
+#Data .sheets .actual table.table th {
+  border: 1px solid #000;
+}
+
+#Data .sheets .actual table.table thead {
+  background-color: #fabf8f;
+}
+
+#Data .sheets .actual table.table thead th {
+  font-size: 14px;
+  text-align: center;
+}
+
+#Data .sheets .actual table.table thead th.threeColumns {
+  padding-right: 0;
+  padding-left: 0;
+  min-width: 210px;
+}
+
+#Data .sheets .actual table.table thead th.twoColumns {
+  padding-right: 0;
+  padding-left: 0;
+  min-width: 140px;
+}
+
+#Data .sheets .actual table.table thead th.sixColumns {
+  padding-right: 0;
+  padding-left: 0;
+  min-width: 420px;
+}
+
+#Data .sheets .actual table.table thead th.notes {
+  width: 200px;
+}
+
+#Data .sheets .actual table.table tbody th,
+#Data .sheets .actual table.table tbody td {
+  text-align: center;
+  position: relative;
+  padding-top: 20px;
+}
+
+#Data .sheets .actual table.table tbody th.prepareInput,
+#Data .sheets .actual table.table tbody td.prepareInput {
+  padding: 0;
+}
+
+#Data .sheets .actual table.table tbody th.prepareInput.insulation,
+#Data .sheets .actual table.table tbody td.prepareInput.insulation {
+  position: initial;
+  padding: 0;
+}
+
+#Data .sheets .actual table.table tbody th.prepareInput.insulation span,
+#Data .sheets .actual table.table tbody td.prepareInput.insulation span {
+  position: relative;
+  display: block;
+  border-bottom: 1px solid #000;
+  min-width: 60px;
+  min-height: 35px;
+  width: 100%;
+}
+
+#Data .sheets .actual table.table tbody th.prepareInput.insulation span:nth-of-type(2),
+#Data .sheets .actual table.table tbody td.prepareInput.insulation span:nth-of-type(2) {
+  border-bottom: none;
+}
+
+#Data .sheets .actual table.table tbody th.prepareInput span,
+#Data .sheets .actual table.table tbody td.prepareInput span {
+  position: relative;
+  display: block;
+  border-bottom: 1px solid #000;
+  padding: 5px;
+  min-width: 80px;
+  min-height: 35px;
+  width: 100%;
+  text-align: center;
+}
+
+#Data .sheets .actual table.table tbody th.prepareInput span.th,
+#Data .sheets .actual table.table tbody td.prepareInput span.th {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#Data .sheets .actual table.table tbody th.prepareInput span:nth-of-type(4),
+#Data .sheets .actual table.table tbody td.prepareInput span:nth-of-type(4) {
+  border-bottom: none;
+}
+
+#Data .sheets .actual table.table tbody th.resistanceAtLength,
+#Data .sheets .actual table.table tbody td.resistanceAtLength {
+  position: initial;
+  padding: 0;
+}
+
+#Data .sheets .actual table.table tbody th.resistanceAtLength span,
+#Data .sheets .actual table.table tbody td.resistanceAtLength span {
+  position: relative;
+  display: block;
+  border-bottom: 1px solid #000;
+  min-width: 80px;
+  min-height: 35px;
+  width: 100%;
+  text-align: center;
+}
+
+#Data .sheets .actual table.table tbody th.resistanceAtLength span:last-child,
+#Data .sheets .actual table.table tbody td.resistanceAtLength span:last-child {
+  border-bottom: none;
+}
+
+#Data .sheets .actual table.table tbody th abbr,
+#Data .sheets .actual table.table tbody td abbr {
+  position: absolute;
+  top: 0px;
+  right: 2px;
+}
+
+#Data .sheets .actual table.table tbody th abbr i,
+#Data .sheets .actual table.table tbody td abbr i {
+  color: #004085;
+}
+
+#Data .sheets .actual table.table tbody tr:nth-last-of-type(odd) {
+  background-color: #aaa;
+}
+
+#Data .sheets .actual table.table tbody td:not(.option) {
+  min-width: 70px;
+}
+
+#Data .sheets .actual table.table tbody td.notes {
+  font-size: 14px;
+}
+
+#Data .sheets .actual table.table tbody td.notes i {
+  font-size: 16px;
+}
+
+#Data .sheets #Limit {
+  cursor: pointer;
+  background-color: #004085;
+  color: #fff;
+}
+
+@media (max-width: 1300px) {
+  .headLine h1 {
+    font-size: 23px;
+  }
+
+  #Edit .box {
+    width: 90%;
+  }
+
+  #Edit .box .form-group {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #Edit .box .form-group .alert {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 6px;
+  }
+
+  #Edit .box .form-group.w-75 {
+    text-align: center;
+  }
+
+  #Edit .box .form-group.w-75 .alert {
+    margin-left: 0px;
+  }
+
+  #Edit .box .form-group label.notes {
+    transform: inherit;
+  }
+
+  #Edit .box .form-group label,
+  #Edit .box .form-group textarea {
+    font-size: 16px;
+    margin-left: 0px !important;
+  }
+
+  #Edit .box .form-group select[name=status] {
+    margin-left: 0 !important;
+  }
+
+  #Edit .box .form-group .input,
+  #Edit .box .form-group select,
+  #Edit .box .form-group textarea,
+  #Edit .box .form-group .secondInput,
+  #Edit .box .form-group .thirdInput,
+  #Edit .box .form-group .fourthInput,
+  #Edit .box .form-group .fifthInput,
+  #Edit .box .form-group .fix-group {
+    width: 100%;
+    margin-left: 0% !important;
+  }
+
+  #Edit .box .form-group label {
+    width: 100%;
+  }
+
+  #Edit .box .input,
+  #Edit .box select,
+  #Edit .box textarea,
+  #Edit .box .secondInput,
+  #Edit .box .thirdInput,
+  #Edit .box .fourthInput,
+  #Edit .box .fifthInput,
+  #Edit .box .fix-group {
+    width: 100%;
+    margin-left: 0% !important;
+  }
+
+  #Edit .box label {
+    width: 100%;
+  }
+
+  #Edit .box .twisted .fix-group {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+
+  #Edit .box .twisted .fix-group .twisted_input {
+    width: 50%;
+  }
+
+  #Edit .box .twisted .fix-group .twisted_select {
+    width: 50% !important;
+  }
+
+  #Edit .box .size_type .fix-group {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+
+  #Edit .box .size_type .fix-group .size {
+    width: 50%;
+  }
+
+  #Edit .box .size_type .fix-group .type {
+    width: 50% !important;
+  }
+
+  #Edit .box .shapes .fix-group {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+
+  #Edit .box .shapes .fix-group .angel {
+    width: 50%;
+  }
+
+  #Edit .box .shapes .fix-group .shape {
+    width: 50% !important;
+  }
+
+  #Edit .box .numberOfJopOrder .form-group {
+    width: 100%;
+  }
+
+  #Edit .box .numberOfJopOrder .form-group label {
+    width: 100%;
+  }
+
+  #Edit .box .numberOfJopOrder .form-group input {
+    width: 100%;
+  }
+
+  #ISO {
+    overflow-y: scroll;
+  }
+
+  #ISO .box {
+    width: 250px;
+    margin: 50px auto;
+  }
+
+  #ISO .box h2 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  #Data .jopOrderNumber {
+    width: 90% !important;
+  }
+
+  #Data .jopOrderNumber .form-group {
+    align-items: center;
+  }
+
+  #Data .jopOrderNumber .form-group label {
+    font-size: 13px;
+  }
+
+  #Data .jopOrderNumber .form-group input.w-75 {
+    width: 50% !important;
+  }
+
+  #Data .jopOrderNumber button {
+    font-size: 13px;
+    margin: 5px 10px 20px !important;
+  }
+
+  #Data .button-print button {
+    font-size: 13px;
+  }
+
+  #Data h4 {
+    font-size: 15px;
+  }
+
+  #Data .sheets .standard table th {
+    padding: 9px;
+    font-size: 14px;
+  }
+
+  #Data .sheets .filterValue {
+    width: 90% !important;
+  }
+
+  #Data .sheets .filterValue .form-group label {
+    width: 20%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+  .nav-sheet .button.col-6 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+
+  #ISO .box {
+    width: 70%;
+  }
+
+  #Data .jopOrderNumber button {
+    margin: 5px 40px 20px !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+  .nav-sheet .button.col-6 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  #Edit .box {
+    width: 80%;
+  }
+
+  #ISO .box {
+    width: 60%;
+  }
+
+  #Data .sheets .filterValue {
+    width: 95% !important;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1300px) {
+  .nav-sheet .button.col-6 {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+
+  #Edit .box {
+    width: 70%;
+  }
+
+  #ISO .box {
+    width: 50%;
+  }
+
+  #Data .sheets .filterValue {
+    width: 75% !important;
+  }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+  .nav-sheet .button.col-6 {
+    flex: 0 0 14.28%;
+    max-width: 14.28%;
+  }
+}
+
+
+/*# sourceMappingURL=ShowData.css.map*/

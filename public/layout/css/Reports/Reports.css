@@ -1,0 +1,761 @@
+abbr[title] {
+  text-decoration: none !important;
+}
+
+.nav-sheet .dropdown .dropdown-menu {
+  margin: 1px 0px;
+}
+
+.nav-sheet .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #004085;
+  color: #fff;
+}
+
+.nav-sheet .dropdown .dropdown-menu .dropdown-item.active {
+  background-color: #004085;
+  color: #e17111;
+  font-weight: bolder;
+}
+
+.headLine h1 {
+  width: -webkit-fit-content;
+  width: fit-content;
+  width: -moz-fit-content;
+  color: #004085;
+  font-weight: bolder;
+}
+
+#Edit,
+#Remark,
+#Traceability {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  z-index: 10000;
+  display: none;
+}
+
+#Edit .box,
+#Remark .box,
+#Traceability .box {
+  width: 70%;
+  background-color: #fff;
+  padding: 30px;
+  position: relative;
+  top: -600px;
+  border-radius: 15px;
+  margin: 30px auto;
+}
+
+#Edit .box h2,
+#Remark .box h2,
+#Traceability .box h2 {
+  color: #004085;
+  font-weight: bold;
+}
+
+#Edit .box i.fa-times-circle,
+#Remark .box i.fa-times-circle,
+#Traceability .box i.fa-times-circle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 25px;
+  color: #f00;
+  cursor: pointer;
+}
+
+#Edit .box .form-group,
+#Remark .box .form-group,
+#Traceability .box .form-group {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+#Edit .box .form-group label,
+#Remark .box .form-group label,
+#Traceability .box .form-group label {
+  width: 50%;
+}
+
+#Edit .box .form-group .input,
+#Remark .box .form-group .input,
+#Traceability .box .form-group .input {
+  width: 50%;
+}
+
+#Edit .box .form-group textarea,
+#Remark .box .form-group textarea,
+#Traceability .box .form-group textarea {
+  height: 100px !important;
+}
+
+#Edit .box.report,
+#Remark .box.report,
+#Traceability .box.report {
+  width: 400px;
+}
+
+#Edit .box.report .form-group label,
+#Remark .box.report .form-group label,
+#Traceability .box.report .form-group label {
+  width: 70px;
+}
+
+#Edit .box.report .form-group textarea,
+#Remark .box.report .form-group textarea,
+#Traceability .box.report .form-group textarea {
+  width: calc(100% - 70px);
+}
+
+#Edit textarea,
+#Remark textarea,
+#Traceability textarea {
+  resize: none;
+}
+
+#Edit .twisted,
+#Remark .twisted,
+#Traceability .twisted {
+  padding: 0px 0px 0px 15px;
+}
+
+#Edit .twisted label,
+#Remark .twisted label,
+#Traceability .twisted label {
+  width: 47.5%;
+}
+
+#Edit .twisted .twisted_input,
+#Remark .twisted .twisted_input,
+#Traceability .twisted .twisted_input {
+  width: 24%;
+  border-right: none;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#Edit .twisted .twisted_select,
+#Remark .twisted .twisted_select,
+#Traceability .twisted .twisted_select {
+  width: 24% !important;
+  font-size: 14px;
+  height: auto;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border: 1px solid #999;
+}
+
+#Edit .size_type,
+#Remark .size_type,
+#Traceability .size_type {
+  padding: 0px 0px 0px 15px;
+}
+
+#Edit .size_type label,
+#Remark .size_type label,
+#Traceability .size_type label {
+  width: 47.5%;
+}
+
+#Edit .size_type .size,
+#Remark .size_type .size,
+#Traceability .size_type .size {
+  width: 24%;
+  border-right: none;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#Edit .size_type .type,
+#Remark .size_type .type,
+#Traceability .size_type .type {
+  width: 24% !important;
+  font-size: 14px;
+  height: auto;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border: 1px solid #999;
+}
+
+#Edit .shapes,
+#Remark .shapes,
+#Traceability .shapes {
+  padding: 0px 0px 0px 15px;
+}
+
+#Edit .shapes label,
+#Remark .shapes label,
+#Traceability .shapes label {
+  width: 47.5%;
+}
+
+#Edit .shapes .angel,
+#Remark .shapes .angel,
+#Traceability .shapes .angel {
+  width: 24%;
+  border-right: none;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#Edit .shapes .shape,
+#Remark .shapes .shape,
+#Traceability .shapes .shape {
+  width: 24% !important;
+  font-size: 14px;
+  height: auto;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border: 1px solid #999;
+}
+
+#Traceability .box {
+  width: 98%;
+}
+
+#Traceability .box .table-container {
+  overflow-x: scroll;
+}
+
+#Traceability .box .table-container table.table {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+#Traceability .box .table-container table.table,
+#Traceability .box .table-container table.table tr,
+#Traceability .box .table-container table.table td,
+#Traceability .box .table-container table.table th {
+  border: 1px solid #000;
+}
+
+#Traceability .box .table-container table.table thead {
+  background-color: #fabf8f;
+}
+
+#Traceability .box .table-container table.table thead th {
+  font-size: 14px;
+  text-align: center;
+}
+
+#Traceability .box .table-container table.table tbody td {
+  text-align: center;
+  position: relative;
+  padding-top: 20px;
+}
+
+#Traceability .box .table-container table.table tbody td.prepareInput {
+  padding: 0;
+}
+
+#Traceability .box .table-container table.table tbody td.prepareInput span {
+  position: relative;
+  display: block;
+  border-bottom: 1px solid #000;
+  padding: 5px;
+  min-width: 80px;
+  min-height: 35px;
+  width: 100%;
+  text-align: center;
+}
+
+#MakeSure {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+#MakeSure .box {
+  width: 300px;
+  background-color: #fff;
+  padding: 30px;
+  position: relative;
+  top: -600px;
+  border-radius: 15px;
+  margin: 30px auto;
+}
+
+#MakeSure .box h2 {
+  color: #004085;
+  font-weight: bold;
+}
+
+#MakeSure .box i {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 25px;
+  color: #f00;
+  cursor: pointer;
+}
+
+#MakeSure .box button {
+  padding: 5px 30px;
+}
+
+.error {
+  border-left: 5px solid #f00;
+}
+
+#Data button.btn-drowing {
+  background-color: #f00;
+  color: #fff;
+}
+
+#Data button.btn-stranding {
+  background-color: #0f0;
+  color: #fff;
+}
+
+#Data button.btn-insulation {
+  background-color: #00f;
+  color: #fff;
+}
+
+#Data button.btn-CCVinsulation {
+  background-color: #000;
+  color: #fff;
+}
+
+#Data button.btn-screen {
+  background-color: #b3b317;
+  color: #fff;
+}
+
+#Data button.btn-assembly {
+  background-color: #0ff;
+  color: #fff;
+}
+
+#Data button.btn-bedding {
+  background-color: #f0f;
+  color: #fff;
+}
+
+#Data button.btn-armouring {
+  background-color: #7700ff;
+  color: #fff;
+}
+
+#Data button.btn-lead {
+  background-color: #ff5e00;
+  color: #fff;
+}
+
+#Data button.btn-taps {
+  background-color: #097;
+  color: #fff;
+}
+
+#Data button.btn-sheathing {
+  background-color: #09c;
+  color: #fff;
+}
+
+#Data button.btn-finish {
+  background-color: #f06;
+  color: #fff;
+}
+
+#Data button.btn-hold {
+  background-color: #575757;
+  color: #fff;
+}
+
+#Data button.btn-rewind {
+  background-color: #fb0;
+  color: #fff;
+}
+
+#Data .filter .row {
+  align-items: center;
+}
+
+#Data .filter .filterValue {
+  width: 55%;
+}
+
+#Data .filter .filterValue #fillerValue {
+  display: inline;
+}
+
+#Data .filter .filterValue #reportrange {
+  background: #fff;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  display: none;
+  border-radius: 0.25rem;
+}
+
+#Data .filter .filterValue #FilterReleased {
+  display: none;
+}
+
+#Data .filter .filterValue #Process {
+  display: none;
+  justify-content: space-around;
+}
+
+#Data .filter .filterValue #Process input,
+#Data .filter .filterValue #Process label {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#Data .filter .filterValue #Process .dropdown button {
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#Data .filter .filterValue #Process .dropdown .dropdown-menu a {
+  cursor: pointer;
+}
+
+#Data .filter .filterValue #Process .dropdown .dropdown-menu a:hover,
+#Data .filter .filterValue #Process .dropdown .dropdown-menu a:focus {
+  background-color: transparent;
+}
+
+#Data .filter .filterValue #Process .dropdown .dropdown-menu a.active {
+  color: #17a2b8;
+  font-weight: bolder;
+  background-color: transparent;
+}
+
+#Data .filter .filterValue #WeightDeviation {
+  display: none;
+  justify-content: space-around;
+}
+
+#Data .filter .filterValue #WeightDeviation input,
+#Data .filter .filterValue #WeightDeviation label {
+  cursor: pointer;
+}
+
+#Data .filter option.filtered {
+  color: #17a2b8;
+  font-weight: bolder;
+}
+
+#Data .report {
+  overflow-x: auto;
+}
+
+#Data .report table.table {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+#Data .report table.table,
+#Data .report table.table tr,
+#Data .report table.table td,
+#Data .report table.table th {
+  border: 1px solid #000;
+}
+
+#Data .report table.table thead {
+  background-color: #fabf8f;
+}
+
+#Data .report table.table thead th {
+  font-size: 14px;
+  text-align: center;
+}
+
+#Data .report table.table thead th.threeColumns {
+  min-width: 210px;
+}
+
+#Data .report table.table thead th.twoColumns {
+  min-width: 140px;
+}
+
+#Data .report table.table thead th.fourColumns {
+  min-width: 400px;
+}
+
+#Data .report table.table thead th.sixColumns {
+  min-width: 420px;
+}
+
+#Data .report table.table thead th.notes,
+#Data .report table.table thead th.remark {
+  width: 200px;
+}
+
+#Data .report table.table tbody th,
+#Data .report table.table tbody td {
+  text-align: center;
+  position: relative;
+  padding-top: 20px;
+}
+
+#Data .report table.table tbody th.prepareInput,
+#Data .report table.table tbody td.prepareInput {
+  padding: 0;
+}
+
+#Data .report table.table tbody th.prepareInput span,
+#Data .report table.table tbody td.prepareInput span {
+  position: relative;
+  display: block;
+  border-bottom: 1px solid #000;
+  padding: 5px;
+  min-width: 80px;
+  min-height: 35px;
+  width: 100%;
+  text-align: center;
+}
+
+#Data .report table.table tbody th.prepareInput span:nth-of-type(2),
+#Data .report table.table tbody td.prepareInput span:nth-of-type(2) {
+  border-bottom: none;
+}
+
+#Data .report table.table tbody th abbr,
+#Data .report table.table tbody td abbr {
+  position: absolute;
+  top: 0px;
+  right: 2px;
+}
+
+#Data .report table.table tbody th abbr i,
+#Data .report table.table tbody td abbr i {
+  color: #004085;
+}
+
+#Data .report table.table tbody tr:nth-last-of-type(odd) {
+  background-color: #aaa;
+}
+
+#Data .report table.table tbody tr.traceability:hover {
+  background-color: #004085 !important;
+  color: #fff;
+  cursor: pointer;
+}
+
+#Data .report table.table tbody td {
+  min-width: 70px;
+}
+
+#Data .report table.table tbody td.remark {
+  position: relative;
+  padding-top: 20px;
+  max-width: 150px;
+  font-size: 14px;
+}
+
+#Data .report table.table tbody td.remark i {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#Data .report table.table tbody .th {
+  font-weight: bolder;
+  color: #004085;
+}
+
+#Data .report table.table tbody td.notes {
+  font-size: 14px;
+}
+
+#Data .report table.table tbody td.notes i {
+  font-size: 16px;
+}
+
+#Data #Limit {
+  cursor: pointer;
+  background-color: #004085;
+  color: #fff;
+}
+
+@media (max-width: 1300px) {
+  .headLine h1 {
+    font-size: 23px;
+  }
+
+  #Edit .box {
+    width: 90%;
+  }
+
+  #Edit .box .form-group {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #Edit .box .form-group .alert {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 6px;
+  }
+
+  #Edit .box .form-group.w-75 {
+    text-align: center;
+  }
+
+  #Edit .box .form-group.w-75 .alert {
+    margin-left: 0px;
+  }
+
+  #Edit .box .form-group label.notes {
+    transform: inherit;
+  }
+
+  #Edit .box .form-group .input,
+  #Edit .box .form-group textarea {
+    margin-left: 0px !important;
+    width: 100%;
+  }
+
+  #Edit .box label,
+  #Edit .box textarea {
+    width: 100% !important;
+    font-size: 16px;
+  }
+
+  #Edit .box .twisted {
+    padding: 0px 15px;
+  }
+
+  #Edit .box .twisted .twisted_input {
+    width: 50%;
+    margin-left: 0 !important;
+  }
+
+  #Edit .box .twisted .twisted_select {
+    width: 50% !important;
+    font-size: 15px;
+    margin-left: 0 !important;
+  }
+
+  #Edit .box .size_type {
+    padding: 0px 15px;
+  }
+
+  #Edit .box .size_type .size {
+    width: 50%;
+    margin-left: 0 !important;
+  }
+
+  #Edit .box .size_type .type {
+    width: 50% !important;
+    font-size: 15px;
+    margin-left: 0 !important;
+  }
+
+  #Edit .box .shapes {
+    padding: 0px 15px;
+  }
+
+  #Edit .box .shapes .angel {
+    width: 50%;
+    margin-left: 0 !important;
+  }
+
+  #Edit .box .shapes .shape {
+    width: 50% !important;
+    font-size: 15px;
+    margin-left: 0 !important;
+  }
+
+  #Traceability .box h2 {
+    font-size: 22px;
+  }
+
+  #Data .button-print button {
+    font-size: 13px;
+  }
+
+  #Data h4 {
+    font-size: 15px;
+  }
+
+  #Data .filterValue {
+    width: 90% !important;
+  }
+
+  #Data .filterValue .form-group label {
+    width: 20%;
+  }
+
+  #Data .sheets .standard table th {
+    padding: 9px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+  .nav-sheet .button.col-6 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+
+  #Data .jopOrderNumber button {
+    margin: 5px 40px 20px !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+  .nav-sheet .button.col-6 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  #Edit .box {
+    width: 80%;
+  }
+
+  #Data .sheets .filterValue {
+    width: 95% !important;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1300px) {
+  .nav-sheet .button.col-6 {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+
+  #Edit .box {
+    width: 70%;
+  }
+
+  #Data .sheets .filterValue {
+    width: 75% !important;
+  }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+  .nav-sheet .button.col-6 {
+    flex: 0 0 14.28%;
+    max-width: 14.28%;
+  }
+}
+
+
+/*# sourceMappingURL=Reports.css.map*/

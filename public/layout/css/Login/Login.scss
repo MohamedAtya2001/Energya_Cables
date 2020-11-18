@@ -1,0 +1,60 @@
+@import "../JMA.scss";
+
+$firstColor: #004085;
+$secondColor: #e17111;
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: #ada996;
+  background: -webkit-linear-gradient(to right, #eaeaea, #dbdbdb, #f2f2f2, #ada996);
+  background: linear-gradient(to right, #eaeaea, #dbdbdb, #f2f2f2, #ada996);
+}
+
+.container {
+  .box {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .login {
+      width: 400px;
+      height: auto;
+      border: 2px solid #fff;
+      padding: 50px;
+      @include borderRadius(30px);
+      position: absolute;
+      @include transition(1s);
+      backface-visibility: hidden;
+      .admin, .employee {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        color: $firstColor;
+        font-weight: 500;
+        cursor: pointer;
+        text-decoration: underline;
+      }
+     
+    }
+  }
+}
+
+.password {
+  position: relative;
+  display: block;
+  i {
+    font-size: 20px;
+    position: absolute;
+    top: calc((100% - 20px) / 2);
+    right: 10px;
+    cursor: pointer;
+    color: #004085;
+    &.fa-eye-slash {
+      display: none;
+    }
+  }
+}
+
+@import "../Login/responsive";

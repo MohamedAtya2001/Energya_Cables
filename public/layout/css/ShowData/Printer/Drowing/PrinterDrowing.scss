@@ -1,0 +1,88 @@
+@import "../../../JMA";
+
+$firstColor: #004085;
+$secondColor: #e17111;
+$colorOfButtons: (#f00, #0f0, #00f, #000, #b3b317, #0ff, #f0f, #7700ff, #ff5e00, #097, #09c, #f06, #575757, #fb0);
+$thirdColor: #fabf8f;
+
+
+@media print {
+  .nav-print {
+    .part1 {
+      width: 20%;
+    }
+    .part2 {
+      margin-top: 20px;
+    }
+  }
+  
+  div.printContent.d-none {
+    display: block !important;
+    .page {
+      margin: 0;
+      page-break-after: always;
+      .standard {
+        table.table {
+          background-color: $thirdColor;
+          page-break-inside: auto;
+          &.w-75 {
+            width: 90% !important;
+          }
+          &,
+          tr,
+          td,
+          th {
+            border: 1px solid #000;
+          }
+          tr {
+            page-break-inside: auto;
+          }
+          th {
+            font-size: 13px;
+          }
+        }
+      }
+      .actual {
+        table.table {
+          @include transform(scale(0.9, 1) translate(-5%, 0px));
+          td {
+            text-align: center;
+          }
+          &,
+          tr,
+          td,
+          th {
+            border: 1px solid #000;
+          }
+  
+          thead {
+            background-color: $thirdColor;
+            th {
+              font-size: 10px;
+              text-align: center;
+              padding: 5px;
+              &.threeColumns {
+                padding-right: 0;
+                padding-left: 0;
+                min-width: 210px;
+              }
+              &.notes {
+                min-width: 150px;
+              }
+            }
+          }
+          tbody {
+            td {
+              font-size: 14px;
+              min-width: 70px;
+            }
+          }
+        }
+      }
+    }
+  
+    abbr {
+      display: none !important;
+    }
+  }
+}

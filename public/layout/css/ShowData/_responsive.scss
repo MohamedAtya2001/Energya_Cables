@@ -1,0 +1,273 @@
+@media (max-width: 1300px) {
+  .headLine {
+    h1 {
+      font-size: 23px;
+    }
+  }
+
+  #Edit {
+    .box {
+      width: 90%;
+      .form-group {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .alert {
+          width: 100%;
+          margin-left: 0px;
+          margin-top: 6px;
+        }
+        &.w-75 {
+          text-align: center;
+          .alert {
+            margin-left: 0px;
+          }
+        }
+        label.notes {
+          transform: inherit;
+        }
+        label,
+        textarea {
+          font-size: 16px;
+          margin-left: 0px !important;
+        }
+
+        select[name="status"] {
+          margin-left: 0 !important;
+        }
+        .input,
+        select,
+        textarea,
+        .secondInput,
+        .thirdInput,
+        .fourthInput,
+        .fifthInput,
+        .fix-group {
+          width: 100%;
+          margin-left: 0% !important;
+        }
+        label {
+          width: 100%;
+        }
+      }
+
+      .input,
+      select,
+      textarea,
+      .secondInput,
+      .thirdInput,
+      .fourthInput,
+      .fifthInput,
+      .fix-group {
+        width: 100%;
+        margin-left: 0% !important;
+      }
+      label {
+        width: 100%;
+      }
+
+      .twisted {
+        .fix-group {
+          width: 100%;
+          margin-left: 0 !important;
+          .twisted_input {
+            width: 50%;
+          }
+          .twisted_select {
+            width: 50% !important;
+          }
+        }
+      }
+
+      .size_type {
+        .fix-group {
+          width: 100%;
+          margin-left: 0 !important;
+          .size {
+            width: 50%;
+          }
+          .type {
+            width: 50% !important;
+          }
+        }
+      }
+
+      .shapes {
+        .fix-group {
+          width: 100%;
+          margin-left: 0 !important;
+          .angel {
+            width: 50%;
+          }
+          .shape {
+            width: 50% !important;
+          }
+        }
+      }
+
+      .numberOfJopOrder {
+        .form-group {
+          width: 100%;
+          label {
+            width: 100%;
+          }
+          input {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  #ISO {
+    overflow-y: scroll;
+    .box {
+      width: 250px;
+      margin: 50px auto;
+      h2 {
+        font-size: 20px;
+        font-weight: 700;
+      }
+    }
+  }
+
+  #Data {
+    .jopOrderNumber {
+      width: 90% !important;
+      .form-group {
+        align-items: center;
+        label {
+          font-size: 13px;
+        }
+        input.w-75 {
+          width: 50% !important;
+        }
+      }
+      button {
+        font-size: 13px;
+        margin: 5px 10px 20px !important;
+      }
+    }
+    .button-print {
+      button {
+        font-size: 13px;
+      }
+    }
+    h4 {
+      font-size: 15px;
+    }
+
+    .sheets {
+      .standard {
+        table {
+          th {
+            padding: 9px;
+            font-size: 14px;
+          }
+        }
+      }
+
+      .filterValue {
+        width: 90% !important;
+        .form-group {
+          label {
+            width: 20%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+  .nav-sheet {
+    .button.col-6 {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+    }
+  }
+
+  #ISO {
+    .box {
+      width: 70%;
+    }
+  }
+
+  #Data {
+    .jopOrderNumber {
+      button {
+        margin: 5px 40px 20px !important;
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+  .nav-sheet {
+    .button.col-6 {
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+  }
+
+  #Edit {
+    .box {
+      width: 80%;
+    }
+  }
+
+  #ISO {
+    .box {
+      width: 60%;
+    }
+  }
+
+  #Data {
+    .sheets {
+      .filterValue {
+        width: 95% !important;
+      }
+    }
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1300px) {
+  .nav-sheet {
+    .button.col-6 {
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
+  }
+
+  #Edit {
+    .box {
+      width: 70%;
+    }
+  }
+
+  #ISO {
+    .box {
+      width: 50%;
+    }
+  }
+
+  #Data {
+    .sheets {
+      .filterValue {
+        width: 75% !important;
+      }
+    }
+  }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+  .nav-sheet {
+    .button.col-6 {
+      flex: 0 0 14.28%;
+      max-width: 14.28%;
+    }
+  }
+}

@@ -1,0 +1,191 @@
+@media (max-width: 1300px) {
+  .Buttons {
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+  button[class^="option"] {
+    width: 175px;
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+  .content {
+    position: relative;
+    margin-top: 80px;
+  }
+
+  h2 {
+    font-size: 17px;
+    margin: 40px auto 20px !important;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 9%;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    filter: invert(100%);
+  }
+
+  .sheetes {
+    .popUp {
+      .box {
+        width: 90%;
+        .form-group {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          .alert {
+            width: 100%;
+            margin-left: 0px;
+            margin-top: 6px;
+          }
+          &.w-75 {
+            text-align: center;
+            .alert {
+              margin-left: 0px;
+            }
+          }
+          label.notes {
+            transform: inherit;
+          }
+        }
+        label,
+        textarea {
+          font-size: 16px;
+          margin-left: 0px !important;
+        }
+
+        input,
+        select,
+        textarea,
+        .secondInput,
+        .thirdInput,
+        .fourthInput,
+        .fifthInput,
+        .fix-group {
+          width: 100%;
+          margin-left: 0% !important;
+        }
+        label {
+          width: 100%;
+        }
+
+        select[name="status"] {
+          margin-left: 0 !important;
+        }
+
+        .twisted {
+          .fix-group {
+            width: 100%;
+            margin-left: 0 !important;
+            .twisted_input {
+              width: 50%;
+            }
+            .twisted_select {
+              width: 50% !important;
+            }
+          }
+        }
+
+        .size_type {
+          .fix-group {
+            width: 100%;
+            margin-left: 0 !important;
+            .size {
+              width: 50%;
+            }
+            .type {
+              width: 50% !important;
+            }
+          }
+        }
+
+        .shapes {
+          .fix-group {
+            width: 100%;
+            margin-left: 0 !important;
+            .angel {
+              width: 50%;
+            }
+            .shape {
+              width: 50% !important;
+            }
+          }
+        }
+
+        .numberOfJopOrder {
+          .form-group {
+            width: 100%;
+            label {
+              width: 100%;
+            }
+            input {
+              width: 100%;
+            }
+          }
+        }
+      }
+
+      button {
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+  h2 {
+    font-size: 25px;
+    margin: 40px auto 20px !important;
+  }
+
+  .sheetes {
+    .popUp {
+      button {
+        font-size: 15px;
+      }
+
+      .box {
+        i {
+          right: 16px;
+          font-size: 16px;
+        }
+      }
+
+      label {
+        font-size: 20px;
+      }
+      label {
+        font-size: 25px;
+      }
+    }
+  }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+  .sheetes {
+    .popUp {
+      .box {
+        width: 80%;
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+  .sheetes {
+    .popUp {
+      .box {
+        width: 70%;
+      }
+    }
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1300px) {
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+}
